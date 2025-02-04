@@ -13,7 +13,7 @@ spec:
     matchLabels: # these labels are used to find the pods
       app: catalogue
       project: roboshop
-      tier: db
+      tier: app
   template:
     metadata:
       labels: # these labels are pod labels

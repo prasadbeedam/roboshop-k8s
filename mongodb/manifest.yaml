@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: mangodb:v1
+        image: prasadyadav99/mangodb:v1
         imagePullPolicy: Always
 ---
 apiVersion: v1
